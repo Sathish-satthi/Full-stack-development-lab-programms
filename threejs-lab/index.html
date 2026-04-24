@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Three.js Basic Scene | Lab 10</title>
+  <style>
+    /* 🎨 Step 2: Basic CSS Setup */
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #0a0a0a; /* Sleek dark mode background */
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+    
+    canvas {
+      display: block;
+    }
+
+    /* Premium Overlay (Optional for Lab, but enhances Visual Excellence) */
+    .overlay {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      color: white;
+      pointer-events: none;
+      z-index: 10;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      font-size: 1.2rem;
+      font-weight: 300;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin: 0;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Three.js Lab 10</h1>
+  </div>
+  <!-- JavaScript module (required by Three.js) -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
